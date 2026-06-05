@@ -1,0 +1,10 @@
+{
+  "name": "InfraSight",
+  "description": "Intelligent Road Infrastructure Monitoring & Predictive Maintenance Platform using computer vision, spatial telemetry, and Generative AI.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
