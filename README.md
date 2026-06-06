@@ -188,10 +188,15 @@ CREATE INDEX idx_damages_coords ON damages(latitude, longitude);
 | `POST` | `/api/tickets/:id/status` | Updates the workflow state of a maintenance ticket and syncs the associated anomaly. |
 
 ---
-
 ## 📸 Live Deployment & Screenshots
 
-> **Note**: Access the responsive, container-deployed portal at: **[InfraSight Live Platform](https://github.com/google-ai-studio/infrasight)**
+### 🌐 Live Application
+https://infrasight-f9nt.onrender.com
+
+### 📂 GitHub Repository
+https://github.com/sriharshapriya21-rgb/InfraSight
+
+
 
 ### Multi-View Interface Features:
 1. **Interactive GIS Map Grid**: Dynamic leaflet overlay demonstrating healthy and severe distress segments.
