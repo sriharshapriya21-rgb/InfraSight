@@ -8,6 +8,13 @@
 InfraSight is a comprehensive commercial-grade, full-stack Smart City Infrastructure Intelligence SaaS platform designed for municipal corporations, smart city authorities, and highway maintenance agencies. The platform automates the detection, classification, spatial mapping, degradation forecasting, and maintenance ticketing of road pavement distress anomalies using UAV/drone telemetry, computer vision (YOLOv8), predictive analytics (XGBoost/Random Forest), and Generative AI (Gemini 3.5-Flash).
 
 ---
+## 📸 Live Deployment  (May take ~30 seconds to wake on first visit)
+
+### 🌐 Live Application
+https://infrasight-f9nt.onrender.com
+
+### 📂 GitHub Repository
+https://github.com/sriharshapriya21-rgb/InfraSight
 
 ## 📖 Table of Contents
 1. [Project Overview](#-project-overview)
@@ -188,13 +195,7 @@ CREATE INDEX idx_damages_coords ON damages(latitude, longitude);
 | `POST` | `/api/tickets/:id/status` | Updates the workflow state of a maintenance ticket and syncs the associated anomaly. |
 
 ---
-## 📸 Live Deployment & Screenshots
 
-### 🌐 Live Application
-https://infrasight-f9nt.onrender.com
-
-### 📂 GitHub Repository
-https://github.com/sriharshapriya21-rgb/InfraSight
 
 
 
